@@ -15,7 +15,10 @@ class School
   end
 
   def add_student(name,number)
-    roster[number] ||=[]
+    if roster[number]=[]
+      return roster[number]
+    else
+      return roster[number]=[]
     roster[number] << name
   end
 
