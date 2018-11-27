@@ -8,6 +8,10 @@ class School
   end
 
   def grade(number)
+    roster[number].values
+  end
+
+  def sort
 
   end
 
