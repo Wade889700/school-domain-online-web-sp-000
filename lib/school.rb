@@ -11,7 +11,8 @@ class School
   end
 
   def sort
-
+     roster.each do |number, name|
+       name.sort 
   end
 
   def add_student(name,number)
