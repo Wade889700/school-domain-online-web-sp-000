@@ -12,7 +12,9 @@ class School
 
   def sort
      roster.each do |number, name|
-       roster[number] = name.sort 
+       roster[number] = name.sort
+     end
+     roster
   end
 
   def add_student(name,number)
