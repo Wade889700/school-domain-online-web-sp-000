@@ -14,6 +14,7 @@ class School
   end
 
   def add_student=(name,number)
-  
+    ROSTER[number] = name
+  end
 
 end
