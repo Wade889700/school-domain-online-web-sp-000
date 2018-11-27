@@ -19,6 +19,7 @@ class School
       return roster[number]
     else
       return roster[number]=[]
+    end
     roster[number] << name
   end
 
