@@ -4,7 +4,7 @@ class School
   def initialize(name)
     @name = name
     @roster = {}
-  end 
+  end
 
   def grade(number)
     roster[number].values
