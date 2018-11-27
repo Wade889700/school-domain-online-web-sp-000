@@ -14,6 +14,6 @@ class School
   end
 
   def add_student=(name,number)
-
+  
 
 end
